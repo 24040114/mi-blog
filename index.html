@@ -3,9 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <title>Mi Blog Personal</title>
+  <link rel="stylesheet" href="style/styles.css">
 </head>
 <body>
-  <center>
+  <div class="container">
     <h1>Mi Blog Personal</h1>
 
     <!-- Imagen de portada -->
@@ -18,7 +19,6 @@
 
     <h2>Secciones</h2>
     <ul>
-      <li><a href="posts/post1.html">Mi primer post</a></li>
       <li><a href="sobre-mi.html">Sobre mí</a></li>
     </ul>
 
@@ -30,7 +30,7 @@
     </ol>
 
     <h2>Tabla de horarios</h2>
-    <table border="1">
+    <table>
       <tr>
         <th>Día</th>
         <th>Actividad</th>
@@ -58,17 +58,20 @@
     </table>
 
     <h2>Datos</h2>
-    <div style="border:1px solid black; width:80%; height:150px;">
+    <div class="datos">
       <p>Nací el día 15 de enero del 2007 en Monterrey, Nuevo León.</p>
     </div>
 
     <h2>Dudas / Contacto</h2>
-    <p>Si tienes dudas o quieres contactarme, haz clic aquí: 
+    <p class="contacto">
+      Si tienes dudas o quieres contactarme, haz clic aquí: <br>
       <a href="mailto:alondra.iridany@gmail.com">Enviar correo a Alondra Saucedo Jiménez</a>
     </p>
 
-    <hr>
-    <p>© 2025 | Alondra Saucedo Jiménez</p>
-  </center>
+    <footer>
+      <p>© 2025 | Alondra Saucedo Jiménez</p>
+    </footer>
+  </div>
 </body>
 </html>
+
